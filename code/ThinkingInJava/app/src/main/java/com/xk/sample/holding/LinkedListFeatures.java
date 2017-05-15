@@ -1,11 +1,13 @@
 //: holding/LinkedListFeatures.java
 package com.xk.sample.holding; /* Added by Eclipse.py */
+
 import com.xk.sample.typeinfo.pets.Hamster;
 import com.xk.sample.typeinfo.pets.Pet;
 import com.xk.sample.typeinfo.pets.Pets;
 import com.xk.sample.typeinfo.pets.Rat;
 
-import java.util.*;
+import java.util.LinkedList;
+
 import static com.xk.sample.net.mindview.util.Print.print;
 
 public class LinkedListFeatures {

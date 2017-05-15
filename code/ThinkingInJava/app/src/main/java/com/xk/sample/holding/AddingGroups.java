@@ -18,5 +18,15 @@ public class AddingGroups {
     list.set(1, 99); // OK -- modify an element
     // list.add(21); // Runtime error because the
                      // underlying array cannot be resized.
+
+    new Comparator<Integer>(){
+
+
+      @Override
+      public int compare(Integer integer, Integer t1) {
+        return 0;
+      }
+
+    };
   }
 } ///:~

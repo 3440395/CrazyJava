@@ -1,9 +1,11 @@
 //: holding/CollectionSequence.java
 package com.xk.sample.holding; /* Added by Eclipse.py */
+
 import com.xk.sample.typeinfo.pets.Pet;
 import com.xk.sample.typeinfo.pets.Pets;
 
-import java.util.*;
+import java.util.AbstractCollection;
+import java.util.Iterator;
 
 public class CollectionSequence
 extends AbstractCollection<Pet> {

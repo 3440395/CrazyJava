@@ -1,18 +1,21 @@
 package com.xk.thinginjava.chapter5;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
+
 /**
  * Created by xuekai on 2017/4/27.
  */
 
 public class Test {
-
-    public static void main(String[] args){
-        System.out.println("xx");
+    @SuppressWarnings("unchecked")
+    public static void main(String[] args) {
+        List list=new ArrayList();
+        list.add(0,new Random());
     }
-    public void main(){
-        int i;
-i=1;
-        int a=i+1;
+
+    public void main() {
 
     }
 }
