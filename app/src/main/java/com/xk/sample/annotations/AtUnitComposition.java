@@ -16,7 +16,7 @@ public class AtUnitComposition {
   }
   public static void main(String[] args) throws Exception {
     OSExecute.command(
-     "java AtUnit AtUnitComposition");
+     "java AtUnit AtUnitComposition ");
   }
 } /* Output:
 AtUnitComposition
