@@ -1,2 +1,11 @@
-code/CrazyJava/.idea/
-code/CrazyJava/gradle/
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+libs/
+/gradle
